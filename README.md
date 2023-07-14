@@ -1,0 +1,1 @@
+# STC_single-pixel-resolution-with-fits
