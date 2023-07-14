@@ -177,7 +177,7 @@ fit_curve = gauss(bin_centers,*params)
 
 
 plt.plot(bin_centers, fit_curve, 'r-', label='Gaussian Fit')
-N,bins,_ = plt.hist(data_['pha'], bins=500)
+N,bins,_ = plt.hist(data_['pha'], bins= len(bins)-1)
 plt.xlabel("PHA")
 plt.ylabel("No. of Counts")
 plt.show()
